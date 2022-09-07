@@ -4,7 +4,7 @@ School: Stevens Institute of Technology
 Course: SSW 567 - A
 Instructor: Prof. Andre Bondi
 ---------------------------------------
-Topic: Homework # 01
+Topic: Homework # 00
 ---------------------------------------
 Coder with CWID: Yujun Kong / 1046 6820
 */"""
