@@ -87,9 +87,7 @@ class Valio:
 
 # (function)
 def classify_triangle(a, b, c) -> Optional[str]:
-
-    
-
+  
     triangle_class_name: str
 
     if a == b == c:
