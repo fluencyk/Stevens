@@ -4,4 +4,4 @@ SSW-567, CS-501, etc.
 ## Info updated:
 27/09/2022
 ### Build Badge:
-[![CircleCI](http://app.circleci.com/pipelines/github/fluencyk/Stevens.svg?style=svg)](http://app.circleci.com/pipelines/github/fluencyk/Stevens)
+[![CircleCI](http://app.circleci.com/pipelines/github/fluencyk/Stevens.svg?style=svg&circle-token=success)](http://app.circleci.com/pipelines/github/fluencyk/Stevens)
