@@ -1,7 +1,7 @@
-# A collection of the programming repositories of the courseworks in software engineering major at Stevens Tech in the US.
+# The collection of repositories of courseworks in software engineering at Stevens Tech.
 ## Enrolled Courses: 
-SSW-567, CS-501, etc.
-## Info updated:
-27/09/2022
-### Build Badge:
-[![CircleCI](http://app.circleci.com/pipelines/github/fluencyk/Stevens.svg?style=svg&circle-token=success)](http://app.circleci.com/pipelines/github/fluencyk/Stevens)
+SSW-555, 567, 810, and CS-501, 570
+## Build Badge:
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/fluencyk/Stevens/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/fluencyk/Stevens/tree/main)
+## Latest Updated:
+Sep 27, 2022
