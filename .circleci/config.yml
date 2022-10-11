@@ -1,5 +1,8 @@
 version: 2.1
 
+environment:
+  PYTHONPATH: /home/circleci/project/src
+  
 executors:
   python-program-executor:
     docker:
