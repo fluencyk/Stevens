@@ -11,8 +11,14 @@ jobs:
       - image: "circleci/python:3.6.4"
     steps:
       - checkout
-      - run: python -m pip install requests
-      - run: python hw_04a_Refactor_YujunKong_SSW567.py
+      - python/install-packages:
+          pkg-manager: pip
+      - run: 
+        name: install python module
+        command: pip -m install requests
+      - run:
+        name: build python module
+        command: python hw_04a_Refactor_YujunKong_SSW567.py
       
 workflows:
   build_and_test:
