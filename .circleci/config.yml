@@ -7,12 +7,15 @@ executors:
 
 jobs:
   build:
-    working_directory: ~/Stevens
+    
     executor: python-program-executor
     steps:
       - checkout
-      - run: |
-        python Majoring/SSW-567_A/Assignments/Homework_04_A/hw_04a_YujunKong_SSW567.py
+      - run:
+          name: "building"
+          working_directory: ~/Stevens/Majoring/SSW-567_A/Assignments/Homework_04_A
+          command: |
+            python hw_04a_YujunKong_SSW567.py
 
 workflows:
   build_and_test:
