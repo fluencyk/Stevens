@@ -5,7 +5,28 @@ executors:
     docker:
       - image: "circleci/python:3.9.0"
 
-jobs:  
+jobs:
+  # Homework 02 A
+  build_hw_02-A:
+    executor: python-program-executor
+    steps:
+      - checkout
+      - run:
+          name: "building"
+          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_02_A
+          command: |
+            python Triangle_Fixed.py
+  test_hw_02-A:
+    executor: python-program-executor
+    steps:
+      - checkout
+      - run:
+          name: "testing"
+          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_02_A
+          command: |
+            python -m unittest -v TestTriangle_Fixed.py
+  
+  # Homework 04 A
   build_hw_04-A:
     executor: python-program-executor
     steps:
@@ -27,7 +48,11 @@ jobs:
             
 workflows:
   build_and_test:
-    jobs:
+    jobs:    
+      - build_hw_02-A
+      - test_hw_02-A:
+          requires:
+            - build_hw_02-A      
       - build_hw_04-A
       - test_hw_04-A:
           requires:
