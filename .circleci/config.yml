@@ -5,9 +5,6 @@ jobs:
     working_directory: ~/Stevens
     docker: 
       - image: "circleci/python:3.6.4"
-    filters:
-      branches:
-        only: master
     steps:
       - checkout
       - run: python3 hw_04a_Refactor_YujunKong_SSW567.py
@@ -16,4 +13,3 @@ workflows:
   build_and_test:
     jobs:
       - build
-      
