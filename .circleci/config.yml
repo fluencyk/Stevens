@@ -2,7 +2,7 @@ version: 2.1
 
 jobs: 
   build:
-    working_directory: ~/Stevens/Majoring/SSW-567_A/Assignments/Homework_04_A
+    working_directory: ~/Stevens
     docker: 
       - image: "circleci/python:3.6.4"
     steps:
