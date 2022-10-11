@@ -6,8 +6,8 @@ executors:
       - image: "circleci/python:3.9.0"
 
 jobs:
+  executor: python-program-executor
   build:    
-    executor: python-program-executor
     steps:
       - checkout
       - run:
@@ -15,7 +15,19 @@ jobs:
           working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
             python hw_04a_YujunKong_SSW567.py
+  test:
+    steps:
+      - checkout
+      - run:
+          name: "testing"
+          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
+          command: |
+            python hw_04a_test_YujunKong_SSW567.py
+            
 workflows:
   build_and_test:
     jobs:
       - build
+      - test
+        requires:
+          - build
