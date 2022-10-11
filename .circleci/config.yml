@@ -8,11 +8,10 @@ executors:
 jobs:
   build:
     executor: python-program-executor
-    working_directory: ~/Stevens
     steps:
       - checkout
       - run: |          
-          python ~/Majoring/SSW-567_A/Assignments/Homework_04_A/hw_04a_YujunKong_SSW567.py
+          python ~/Stevens/Majoring/SSW-567_A/Assignments/Homework_04_A/hw_04a_YujunKong_SSW567.py
 
 workflows:
   build_and_test:
