@@ -7,14 +7,7 @@ executors:
 
 jobs:
   executor: python-program-executor
-  build:    
-    steps:
-      - checkout
-      - run:
-          name: "building"
-          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
-          command: |
-            python hw_04a_YujunKong_SSW567.py
+
   test:
     steps:
       - checkout
@@ -27,7 +20,6 @@ jobs:
 workflows:
   build_and_test:
     jobs:
-      - build
+      
       - test
-        requires:
-          - build
+
