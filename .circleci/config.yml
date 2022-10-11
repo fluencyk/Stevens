@@ -16,7 +16,6 @@ jobs:
       - run: 
         name: install python module
         command: pip -m install requests
-      - run:
         name: build python module
         command: python hw_04a_Refactor_YujunKong_SSW567.py
       
