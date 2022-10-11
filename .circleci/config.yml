@@ -8,10 +8,9 @@ jobs:
     steps:
       - checkout
       - run: python3 hw_04a_YujunKong_SSW567.py
-  test:
-    working_dictionary: ~/Stevens/Majoring/SSW-567_A/Assignments/Homework_04_A
-    docker: 
-      - image: "circleci/python:3.6.4"
-    steps:
-      - checkout
-      - run: python3 hw_04a_test_YujunKong_SSW567.py
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      
