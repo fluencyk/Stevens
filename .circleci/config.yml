@@ -13,6 +13,7 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: pip
+      - run: python -m install requests
       - run: python hw_04a_Refactor_YujunKong_SSW567.py
       
 workflows:
