@@ -12,10 +12,8 @@ jobs:
     steps:
       - checkout
       - python/install-packages:
-          pkg-manager: pip
-      - run: 
-        name: install python module
-        command: pip -m install requests
+          pkg-manager: requests
+      - run:
         name: build python module
         command: python hw_04a_Refactor_YujunKong_SSW567.py
       
