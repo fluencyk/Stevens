@@ -8,6 +8,7 @@ executors:
 jobs:
   build:
     executor: python-program-executor
+    working_directory: ~/Homework_04_A
     steps:
       - checkout
       - run: |          
