@@ -166,6 +166,7 @@ def restart_program() -> bool:
 
 def main():
 
+    """ the below part has been muted for ceasing the fuctionality of user imputting to set 3 sides of a triangle
     print("-= Set a triangle by side a, b, and c to verify if it's a valid one and classify its type =-")
 
     a = get_input("a")
@@ -173,7 +174,7 @@ def main():
     c = get_input("c")
 
     print(f"The triangle is ' {classify_triangle(a, b, c)} '\n")
-
+    
     if restart_program() == False:
         print("Thanks for your operation, Bye!")
         sys.exit()
@@ -181,6 +182,10 @@ def main():
         del a, b, c
         gc.collect()
         main()
+    """
+    
+    a, b, c = 3, 4, 5
+    print(f"The triangle is ' {classify_triangle(a, b, c)} '\n")
 
 if __name__ == "__main__":
     main()
