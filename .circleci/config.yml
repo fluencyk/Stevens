@@ -5,9 +5,9 @@ executors:
     docker:
       - image: "circleci/python:3.9.0"
 
-jobs:
-  executor: python-program-executor
-  build:    
+jobs:  
+  build:
+    executor: python-program-executor
     steps:
       - checkout
       - run:
@@ -16,6 +16,7 @@ jobs:
           command: |
             python hw_04a_YujunKong_SSW567.py
   test:
+    executor: python-program-executor
     steps:
       - checkout
       - run:
@@ -29,5 +30,5 @@ workflows:
     jobs:
       - build
       - test:
-        requires:
-          - build
+          requires:
+            - build
