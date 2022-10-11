@@ -13,9 +13,9 @@ jobs:
       - checkout
       - run:
           name: "building"
-          working_directory: ~/Stevens/Majoring/SSW-567_A/Assignments
+          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
-            Homework_04_A/hw_04a_YujunKong_SSW567.py
+            python hw_04a_YujunKong_SSW567.py
 
 workflows:
   build_and_test:
