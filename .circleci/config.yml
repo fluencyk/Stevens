@@ -1,7 +1,4 @@
 version: 2.1
-
-environment:
-  PYTHONPATH: /home/circleci/project/src
   
 executors:
   python-program-executor:
@@ -14,8 +11,7 @@ jobs:
     working_directory: ~/Stevens
     steps:
       - checkout
-      - run: |
-          
+      - run: |          
           python hw_04a_Refactor_YujunKong_SSW567.py
 
 workflows:
