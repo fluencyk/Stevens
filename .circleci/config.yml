@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: "building"
-          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_02_A
+          working_directory: ~/project/tree/HW05a_Mocking/Majoring/SSW-567_A/Assignments/Homework_02_A
           command: |
             python Triangle_Fixed.py
   test_hw_02-A:
@@ -22,7 +22,7 @@ jobs:
       - checkout
       - run:
           name: "testing"
-          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_02_A
+          working_directory: ~/project/tree/HW05a_Mocking/Majoring/SSW-567_A/Assignments/Homework_02_A
           command: |
             python -m unittest -v TestTriangle_Fixed.py
   
@@ -33,7 +33,7 @@ jobs:
       - checkout
       - run:
           name: "building"
-          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
+          working_directory: ~/project/tree/HW05a_Mocking/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
             python hw_04a_ykong_ssw567.py
   test_hw_04-A:
@@ -42,7 +42,7 @@ jobs:
       - checkout
       - run:
           name: "testing"
-          working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
+          working_directory: ~/project/tree/HW05a_Mocking/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
             python -m unittest -v hw_04a_test_ykong_ssw567.py
             
