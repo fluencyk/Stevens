@@ -26,7 +26,7 @@ jobs:
           command: |
             python -m unittest -v TestTriangle_Fixed.py
   
-  # Homework 04 A
+  # Homework 04 A, Updated to Homework 05 A - Mocking the service of GitHub REST APIs
   build_hw_04-A:
     executor: python-program-executor
     steps:
@@ -35,7 +35,7 @@ jobs:
           name: "building"
           working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
-            python hw_04a_YujunKong_SSW567.py
+            python hw_04a_ykong_ssw567.py
   test_hw_04-A:
     executor: python-program-executor
     steps:
@@ -44,7 +44,7 @@ jobs:
           name: "testing"
           working_directory: ~/project/Majoring/SSW-567_A/Assignments/Homework_04_A
           command: |
-            python -m unittest -v hw_04a_test_YujunKong_SSW567.py
+            python -m unittest -v hw_04a_test_ykong_ssw567.py
             
 workflows:
   build_and_test:
