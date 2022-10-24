@@ -49,7 +49,7 @@ jobs:
 workflows:
   build_and_test:
     jobs:    
-      - build_hw_02-A
+      - build_hw_02-A:
           filters:
             branches:
               only: HW05a_Mocking
@@ -57,7 +57,7 @@ workflows:
           requires:
             - build_hw_02-A
             
-      - build_hw_04-A
+      - build_hw_04-A:
           filters:
             branches:
               only: HW05a_Mocking
