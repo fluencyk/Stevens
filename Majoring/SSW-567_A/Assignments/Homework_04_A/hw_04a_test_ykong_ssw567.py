@@ -13,7 +13,6 @@ Testcase For: Homework # 05.a
 """
 import unittest
 from unittest import mock
-from unittest import result
 from hw_04a_ykong_ssw567 import GitHubInfoGetter
 
 class TestGitHubInfoGetter(unittest.TestCase):
