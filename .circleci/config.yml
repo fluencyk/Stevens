@@ -48,7 +48,7 @@ jobs:
             
 workflows:
   build_and_test:
-    jobs:    
+    jobs:
       - build_hw_02-A:
           filters:
             branches:
