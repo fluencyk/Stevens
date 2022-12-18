@@ -1,0 +1,22 @@
+Steven Spielberg
+John Williams
+Schindler's List, 1994, War, R
+Jaws, 1975, Thriller, PG
+Jurassic Park, 1993, Sci Fi, PG
+Saving Private Ryan, 1998, War, R
+E.T., 1982, Sci Fi, PG
+Close Encounters of the Third Kind, 1977, Sci Fi, PG
+Raiders of the Lost Ark, 1981, Adventure, PG-13
+War Horse, 2011, War, PG-13
+Tintin, 2011, Adventure, PG
+The Post, 2017, Drama, PG-13
+Catch Me If You Can, 2002, Drama, PG-13
+The Terminal, 2004, Romance, PG-13
+Lincoln, 2012, War, R
+War of the Worlds, 2005, Sci Fi, PG-13
+Minority Report, 2002, Sci Fi, PG-13
+Amistad, 1997, Drama, R 
+Hook, 1991, Fantasy, PG
+Always, 1989, Romance, PG
+Indiana Jones and the Last Crusade, 1989, Adventure, PG-13
+Indiana Jones and the Temple of Doom, 1984, Adventure, PG-13
