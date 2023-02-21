@@ -1,4 +1,7 @@
-## The collection of repositories of courseworks in software engineering at Stevens Tech.
+## The collection of repositories of coursework in software engineering at Stevens Tech.
+### Announcement:
+Please do NOT copy and paste my coursework, coding in your own way instead of direct use for your coursework!
+This repo is just for helping people to code well. Thanks and I apologize for the inconvenience.
 ### Enrolled Courses: 
 SSW-555, 567, 810, CS-501, 570. 
 
@@ -11,4 +14,4 @@ SSW-555, 567, 810, CS-501, 570.
 ## Build and Test Badge:
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/fluencyk/Stevens/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/fluencyk/Stevens/tree/main)
 ## Latest Updated:
-Oct 11, 2022 @author: Yujun Kong
+Feb 21, 2023 @author: Yujun Kong
